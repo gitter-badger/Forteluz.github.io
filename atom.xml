@@ -4,7 +4,7 @@
   <title><![CDATA[Forteluz]]></title>
   <link href="http://forteluz.github.io/atom.xml" rel="self"/>
   <link href="http://forteluz.github.io/"/>
-  <updated>2015-07-03T12:11:53+08:00</updated>
+  <updated>2015-07-03T13:54:17+08:00</updated>
   <id>http://forteluz.github.io/</id>
   <author>
     <name><![CDATA[Forteluz]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[“this Is Title!"]]></title>
+    <title type="html"><![CDATA[“this is title!"]]></title>
     <link href="http://forteluz.github.io/blog/2015/07/03/123/"/>
     <updated>2015-07-03T11:37:31+08:00</updated>
     <id>http://forteluz.github.io/blog/2015/07/03/123</id>
