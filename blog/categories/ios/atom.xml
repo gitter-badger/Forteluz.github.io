@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ios | Forteluz]]></title>
+  <link href="http://forteluz.github.io/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://forteluz.github.io/"/>
+  <updated>2015-07-03T17:25:35+08:00</updated>
+  <id>http://forteluz.github.io/</id>
+  <author>
+    <name><![CDATA[Forteluz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[IPA重签名]]></title>
+    <link href="http://forteluz.github.io/blog/2015/07/03/this-is-new-post/"/>
+    <updated>2015-07-03T16:02:15+08:00</updated>
+    <id>http://forteluz.github.io/blog/2015/07/03/this-is-new-post</id>
+    <content type="html"><![CDATA[<p>IPA重签名流程
+使用<a href="https://github.com/Forteluz/IPAResign">IPAResign</a>脚本进行自动化签名</p>
+
+<ul>
+<li><strong>如何使用</strong> ：123；</li>
+<li><strong>其他</strong> ：123；</li>
+<li><strong>重签名相关</strong> ：123。</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
