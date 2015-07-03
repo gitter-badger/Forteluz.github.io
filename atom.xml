@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Forteluz]]></title>
   <link href="http://forteluz.github.io/atom.xml" rel="self"/>
   <link href="http://forteluz.github.io/"/>
-  <updated>2014-11-07T18:36:54+08:00</updated>
+  <updated>2015-07-03T12:11:53+08:00</updated>
   <id>http://forteluz.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Forteluz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[“this Is Title!"]]></title>
+    <link href="http://forteluz.github.io/blog/2015/07/03/123/"/>
+    <updated>2015-07-03T11:37:31+08:00</updated>
+    <id>http://forteluz.github.io/blog/2015/07/03/123</id>
+    <content type="html"><![CDATA[<p>Hi Octopress!</p>
+]]></content>
+  </entry>
   
 </feed>
