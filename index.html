@@ -6,16 +6,14 @@
 <html class="no-js" lang="zh-CN"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Forteluz</title>
+  <title>FORTELUZ</title>
   <meta name="author" content="Forteluz">
   <!--[if lt IE 9]>
     <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
     <![endif]-->
   
-  <meta name="description" content="MacOS 这里是MacOS相关 IPA重签名 IPA重签名流程
-使用IPAResign脚本进行自动化签名 如何使用 ：123；
-其他 ：123；
-重签名相关 ：123。 Hi,World @(示例笔记本)[马克飞象|帮助|Markdown] 马克飞象是一款专为印象笔记（Evernote） &hellip;">
+  <meta name="description" content="学习GCD Jul 4th, 2015 3:07 am 这里记录和GCD不清不楚的关系 MacOS Jul 3rd, 2015 4:07 pm 这里是MacOS相关 IPA重签名 Jul 3rd, 2015 4:02 pm IPA重签名流程
+使用IPAResign脚本进行自动化签名 Hi, &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -27,7 +25,19 @@
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="http://t.papaapp.com/js/libs/jquery/1.7.2/jquery.js"></script>
-  <link href="/atom.xml" rel="alternate" title="Forteluz" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="FORTELUZ" type="application/atom+xml">
+
+    <!--添加点击链接打开新页面功能-->
+    <script>
+        function addBlankTargetForLinks () {
+            $('a[href^="http"]').each(function(){
+                $(this).attr('target', '_blank');
+            });
+        }
+        $(document).bind('DOMNodeInserted', function(event) {
+            addBlankTargetForLinks();
+        });
+    </script>
 
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 
@@ -39,14 +49,15 @@
         <div class="col-group">
             <div class="site-name ">
                 <a id="logo" href="/">
-                   Forteluz
+                   FORTELUZ
                 </a>
-                <p class="description">让我和草木为友，和土壤相亲，我便已觉得心满意足。我的灵魂很舒服地在泥土里蠕动，觉得很愉悦。当一个人优闲陶醉于土地上时，他的心灵似乎那么简单，好像是在天堂一般。事实上，他那六尺之躯，何尝离开土壤一寸一分呢</p>
+                <p class="description">You never know how strong you really are until being strong is the only choice you have.</p>
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
                     <a class="index-nav current" href="/">Blog</a>
 <a class="archives-nav" href="/blog/archives">Archives</a>
+<a class="about-nav" href="/about">About</a>
                 </nav>
             </div>
         </div>
@@ -58,6 +69,49 @@
 			  <div class="col-8" id="main">
     <div class="res-cons">
     
+    
+    
+      <article class="post">
+        
+  <header>
+    
+      <h2 class="post-title"><a href="/blog/2015/07/04/xue-xi-gcd/">学习GCD</a></h2>
+    
+    
+      <p class="post-meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<time class='entry-date' datetime='2015-07-04T03:07:49+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>3:07 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="post-content"><p>这里记录和GCD不清不楚的关系</p>
+</div>
+  
+  
+
+
+      </article>
     
     
       <article class="post">
@@ -80,7 +134,14 @@
   
 
 
-<time datetime="2015-07-03T16:07:24+08:00" pubdate data-updated="true"></time>
+
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<time class='entry-date' datetime='2015-07-03T16:07:24+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>4:07 pm</span></time>
         
       </p>
     
@@ -116,7 +177,14 @@
   
 
 
-<time datetime="2015-07-03T16:02:15+08:00" pubdate data-updated="true"></time>
+
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<time class='entry-date' datetime='2015-07-03T16:02:15+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>4:02 pm</span></time>
         
       </p>
     
@@ -125,13 +193,6 @@
 
   <div class="post-content"><p>IPA重签名流程
 使用<a href="https://github.com/Forteluz/IPAResign">IPAResign</a>脚本进行自动化签名</p>
-
-<ul>
-<li><strong>如何使用</strong> ：123；</li>
-<li><strong>其他</strong> ：123；</li>
-<li><strong>重签名相关</strong> ：123。</li>
-</ul>
-
 </div>
   
   
@@ -160,63 +221,21 @@
   
 
 
-<time datetime="2015-07-03T11:37:31+08:00" pubdate data-updated="true"></time>
+
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<time class='entry-date' datetime='2015-07-03T11:37:31+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>11:37 am</span></time>
         
       </p>
     
   </header>
 
 
-  <div class="post-content"><p>@(示例笔记本)[马克飞象|帮助|Markdown]</p>
-
-<p><strong>马克飞象</strong>是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：</p>
-
-<ul>
-<li><strong>功能丰富</strong> ：支持高亮代码块、<em>LaTeX</em> 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；</li>
-<li><strong>得心应手</strong> ：简洁高效的编辑器，提供桌面[离线客户端][1]，支持移动端 Web；</li>
-<li><strong>深度整合</strong> ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。</li>
-</ul>
-
-
-<hr />
-
-<p>[TOC]</p>
-
-<h2>Markdown简介</h2>
-
-<blockquote><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown">维基百科</a></p></blockquote>
-
-<p>正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为<strong>粗体</strong>或者<em>斜体</em>，创建一个<a href="http://www.example.com">链接</a>或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按<code>Cmd + /</code>查看帮助。</p>
-
-<h3>表格</h3>
-
-<table>
-<thead>
-<tr>
-<th style="text-align:left;"> Item      </th>
-<th style="text-align:right;">    Value </th>
-<th style="text-align:center;"> Qty  </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"> Computer  </td>
-<td style="text-align:right;"> 1600 USD </td>
-<td style="text-align:center;">  5   </td>
-</tr>
-<tr>
-<td style="text-align:left;"> Phone     </td>
-<td style="text-align:right;">   12 USD </td>
-<td style="text-align:center;">  12  </td>
-</tr>
-<tr>
-<td style="text-align:left;"> Pipe      </td>
-<td style="text-align:right;">    1 USD </td>
-<td style="text-align:center;"> 234  </td>
-</tr>
-</tbody>
-</table>
-
+  <div class="post-content"><p>这是我的Hello World,Octopress!</p>
 </div>
   
   
@@ -237,11 +256,11 @@
   <aside id="secondary">
   
     <section>
-  <h1>Categories</h1>
+  <h1></h1>
   <ul id="categories">
-    <li class='category'><a href='/blog/categories/hi-world/'>hi,world (1)</a></li>
-<li class='category'><a href='/blog/categories/ios/'>ios (1)</a></li>
-<li class='category'><a href='/blog/categories/macos/'>macos (1)</a></li>
+    <li class='category'><a href='/blog/categories/develop-for-ios/'>develop for ios (2)</a></li>
+<li class='category'><a href='/blog/categories/develop-for-mac/'>develop for mac (1)</a></li>
+<li class='category'><a href='/blog/categories/joke/'>joke (1)</a></li>
 
   </ul>
 </section>
@@ -256,7 +275,7 @@
   <footer id="footer">
   	<div class="container">
 	Copyright &copy; 2015 - Forteluz -
-  <span class="credit">Powered by <a rel="nofollow" href="http://octopress.org">Octopress</a> on <a rel="nofollow" href="http://pages.github.com/">GitHubPages</a>
+  <span class="credit">Powered by <a rel="nofollow" href="http://octopress.org">Octopress</a>
   </span>
   - <span class="credit">Theme by <a rel="nofollow" href="http://pagecho.com">Cho</a></span>
 
