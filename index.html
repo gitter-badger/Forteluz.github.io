@@ -12,7 +12,7 @@
     <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
     <![endif]-->
   
-  <meta name="description" content="学习GCD Jul 4th, 2015 3:07 am 这里记录和GCD不清不楚的关系 MacOS Jul 3rd, 2015 4:07 pm 这里是MacOS相关 iOS Code Signing and Resigning Jul 3rd, 2015 4:02 pm 临时简要总结、 &hellip;">
+  <meta name="description" content="Oh,GCD Jul 4th, 2015 3:07 am 这里记录和GCD不清不楚的关系 MacOS Jul 3rd, 2015 4:07 pm 这里是MacOS相关 iOS Code Signing and Resigning Jul 3rd, 2015 4:02 pm 临时简要总结、 &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -74,7 +74,7 @@
         
   <header>
     
-      <h2 class="post-title"><a href="/blog/2015/07/04/xue-xi-gcd/">学习GCD</a></h2>
+      <h2 class="post-title"><a href="/blog/2015/07/04/xue-xi-gcd/">Oh,GCD</a></h2>
     
     
       <p class="post-meta">
@@ -219,7 +219,7 @@
 <pre><code>codesign -d --entitlements - Example.app
 </code></pre>
 
-<p>对APP签名（CERTIFICATE例如：<code>iPhone Developer: Thomas Kollbach (7TPNXN7G6K)</code>），设置<code>--entitlements</code>参数为配置好的entitlements.plist，加<code>-f</code>是重签名，不加是对未签名的APP签名:</p>
+<p>对APP签名（CERTIFICATE例如：<code>iPhone Developer: Thomas Kollbach (7TPNXN7G6K)</code>），需要设置配置文件参数<code>--entitlements</code>，加<code>-f</code>是重签名，不加是对未签名的APP签名:</p>
 
 <pre><code>codesign -f -s CERTIFICATE --entitlements=entitlements.plist Example.app
 </code></pre>
@@ -317,7 +317,7 @@
   </div>
   <footer id="footer">
   	<div class="container">
-	Copyright &copy; 2015 - Forteluz -
+	Copyright &copy; 2015 - <a rel="nofollow" href="https://github.com/Forteluz">Forteluz</a> -
   <span class="credit">Powered by <a rel="nofollow" href="http://octopress.org">Octopress</a>
   </span>
   - <span class="credit">Theme by <a rel="nofollow" href="http://pagecho.com">Cho</a></span>
