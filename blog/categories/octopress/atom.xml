@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | FORTELUZ]]></title>
+  <link href="http://forteluz.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://forteluz.github.io/"/>
+  <updated>2015-07-07T01:17:26+08:00</updated>
+  <id>http://forteluz.github.io/</id>
+  <author>
+    <name><![CDATA[Forteluz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[About Octopress]]></title>
+    <link href="http://forteluz.github.io/blog/2015/07/03/123/"/>
+    <updated>2015-07-03T11:37:31+08:00</updated>
+    <id>http://forteluz.github.io/blog/2015/07/03/123</id>
+    <content type="html"><![CDATA[<p>总结<a href="http://octopress.org">octopress</a>相关笔记(持续更新以及问题总结)</p>
+
+<h5>命令总结</h5>
+
+<p>生成新博客，自动在source/_post目录下生成对应的markdown文件（注意，在zsh下使用<code>''</code>避免编码问题）：</p>
+
+<pre><code>rake 'new_post[blog_title]'
+</code></pre>
+
+<p>生成新的页面，会自动在source目录下生成对应的文件夹以及index.html文件（注意，在zsh下使用<code>''</code>避免编码问题）：</p>
+
+<pre><code>rake 'new_page[page_title]'
+</code></pre>
+
+<p>本地预览<a href="http://localhost:4000">http://localhost:4000</a>：</p>
+
+<pre><code>rake preview
+</code></pre>
+
+<p>重新生成静态文件(如果配置文件修改，需要执行该命令后再次rake preview才能预览变更)</p>
+
+<pre><code>rake generate
+</code></pre>
+
+<p>生成静态文件并且发布(generate + deploy)</p>
+
+<pre><code>rake gen_deploy
+</code></pre>
+
+<h5>问题</h5>
+
+<ul>
+<li><p>目前编译时仍有很多警告未解决，如:</p>
+
+<p>   Layout &lsquo;nil&rsquo; requested in blog/categories/joke/atom.xml does not exist.</p></li>
+<li><p>有时编译报错，因为装了多版本ruby，所以需要在博客目录下确保rvm list显示的版本正确</p></li>
+<li><p>目前博客的搭建流程没有做记录，以后再添加</p></li>
+<li><p>目前使用的是<a href="https://github.com/Forteluz/mewpassant">Cho的mewpassant主题</a>，就喜欢这么简洁 &lt;(▰˘◡˘▰)></p></li>
+<li><p>还未指定域名，不太酷</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

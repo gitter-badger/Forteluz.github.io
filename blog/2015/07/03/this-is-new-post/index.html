@@ -103,24 +103,24 @@
 
 <div class="post-content"><p>临时简要总结、记录签名和重签名，以后再完善 ㄟ( ▔, ▔ )ㄏ</p>
 
-<h6>常用命令</h6>
+<h5>常用命令</h5>
 
 <p>查看系统中已安装的证书:</p>
 
 <pre><code>security find-identity -v -p codes
 </code></pre>
 
-<p> 查看APP签名信息:</p>
+<p>查看APP签名信息:</p>
 
-<pre><code> codesign -vv -d Example.app
+<pre><code>codesign -vv -d Example.app
 </code></pre>
 
-<p> 检查APP签名文件是否完整（有任何改动都应该重签名全部文件:</p>
+<p>检查APP签名文件是否完整（有任何改动都应该重签名全部文件:</p>
 
 <pre><code>codesign --verify Example.app
 </code></pre>
 
-<p> 查看mobileprovision描述信息:</p>
+<p>查看mobileprovision描述信息:</p>
 
 <pre><code>security cms -D -i example.mobileprovision
 </code></pre>
@@ -135,11 +135,11 @@
 <pre><code>codesign -f -s CERTIFICATE --entitlements=entitlements.plist Example.app
 </code></pre>
 
-<h6>工具</h6>
+<h5>工具</h5>
 
 <p>由于之前的工作中，需要帮其他团队打企业包进行测试，写了个简单的脚本对APP进行重签名： <a href="https://github.com/Forteluz/IPAResign">IPAResign</a></p>
 
-<h6>参考</h6>
+<h5>参考</h5>
 
 <ul>
 <li><a href="http://floatlearning.com/2011/11/re-signing-an-ios-app-without-xcode/">http://floatlearning.com/2011/11/re-signing-an-ios-app-without-xcode/</a></li>
@@ -176,7 +176,7 @@
     
     <div class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/07/03/123/" title="Previous Post: Hi,World">&laquo; Hi,World</a>
+        <a class="basic-alignment left" href="/blog/2015/07/03/123/" title="Previous Post: About Octopress">&laquo; About Octopress</a>
       
       
         <a class="basic-alignment right" href="/blog/2015/07/03/bbbbiii/" title="Next Post: MacOS">MacOS &raquo;</a>
@@ -195,7 +195,8 @@
   <ul id="categories">
     <li class='category'><a href='/blog/categories/develop-for-ios/'>develop for ios (2)</a></li>
 <li class='category'><a href='/blog/categories/develop-for-mac/'>develop for mac (1)</a></li>
-<li class='category'><a href='/blog/categories/joke/'>joke (1)</a></li>
+<li class='category'><a href='/blog/categories/octopress/'>octopress (1)</a></li>
+<li class='category'><a href='/blog/categories/rvm/'>rvm (1)</a></li>
 
   </ul>
 </section>

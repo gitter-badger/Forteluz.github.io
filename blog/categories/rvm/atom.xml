@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rvm | FORTELUZ]]></title>
+  <link href="http://forteluz.github.io/blog/categories/rvm/atom.xml" rel="self"/>
+  <link href="http://forteluz.github.io/"/>
+  <updated>2015-07-07T01:17:26+08:00</updated>
+  <id>http://forteluz.github.io/</id>
+  <author>
+    <name><![CDATA[Forteluz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[About RVM]]></title>
+    <link href="http://forteluz.github.io/blog/2015/07/06/octopressbi-ji/"/>
+    <updated>2015-07-06T23:49:58+08:00</updated>
+    <id>http://forteluz.github.io/blog/2015/07/06/octopressbi-ji</id>
+    <content type="html"><![CDATA[<p>这里是关于RVM的总结</p>
+]]></content>
+  </entry>
+  
+</feed>

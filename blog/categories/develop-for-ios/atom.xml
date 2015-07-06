@@ -4,7 +4,7 @@
   <title><![CDATA[Category: develop for ios | FORTELUZ]]></title>
   <link href="http://forteluz.github.io/blog/categories/develop-for-ios/atom.xml" rel="self"/>
   <link href="http://forteluz.github.io/"/>
-  <updated>2015-07-06T10:38:21+08:00</updated>
+  <updated>2015-07-07T01:17:26+08:00</updated>
   <id>http://forteluz.github.io/</id>
   <author>
     <name><![CDATA[Forteluz]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Oh,GCD]]></title>
+    <title type="html"><![CDATA[About GCD]]></title>
     <link href="http://forteluz.github.io/blog/2015/07/04/xue-xi-gcd/"/>
     <updated>2015-07-04T03:07:49+08:00</updated>
     <id>http://forteluz.github.io/blog/2015/07/04/xue-xi-gcd</id>
@@ -29,24 +29,24 @@
     <id>http://forteluz.github.io/blog/2015/07/03/this-is-new-post</id>
     <content type="html"><![CDATA[<p>临时简要总结、记录签名和重签名，以后再完善 ㄟ( ▔, ▔ )ㄏ</p>
 
-<h6>常用命令</h6>
+<h5>常用命令</h5>
 
 <p>查看系统中已安装的证书:</p>
 
 <pre><code>security find-identity -v -p codes
 </code></pre>
 
-<p> 查看APP签名信息:</p>
+<p>查看APP签名信息:</p>
 
-<pre><code> codesign -vv -d Example.app
+<pre><code>codesign -vv -d Example.app
 </code></pre>
 
-<p> 检查APP签名文件是否完整（有任何改动都应该重签名全部文件:</p>
+<p>检查APP签名文件是否完整（有任何改动都应该重签名全部文件:</p>
 
 <pre><code>codesign --verify Example.app
 </code></pre>
 
-<p> 查看mobileprovision描述信息:</p>
+<p>查看mobileprovision描述信息:</p>
 
 <pre><code>security cms -D -i example.mobileprovision
 </code></pre>
@@ -61,11 +61,11 @@
 <pre><code>codesign -f -s CERTIFICATE --entitlements=entitlements.plist Example.app
 </code></pre>
 
-<h6>工具</h6>
+<h5>工具</h5>
 
 <p>由于之前的工作中，需要帮其他团队打企业包进行测试，写了个简单的脚本对APP进行重签名： <a href="https://github.com/Forteluz/IPAResign">IPAResign</a></p>
 
-<h6>参考</h6>
+<h5>参考</h5>
 
 <ul>
 <li><a href="http://floatlearning.com/2011/11/re-signing-an-ios-app-without-xcode/">http://floatlearning.com/2011/11/re-signing-an-ios-app-without-xcode/</a></li>

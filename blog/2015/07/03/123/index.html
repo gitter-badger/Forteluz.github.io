@@ -6,13 +6,13 @@
 <html class="no-js" lang="zh-CN"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hi,World - FORTELUZ</title>
+  <title>About Octopress - FORTELUZ</title>
   <meta name="author" content="Forteluz">
   <!--[if lt IE 9]>
     <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
     <![endif]-->
   
-  <meta name="description" content="Hi,World Jul 3rd, 2015 11:37 am 这是我的Hello World,Octopress! Posted by Forteluz - joke iOS Code Signing and Resigning &raquo; develop for ios (2) &hellip;">
+  <meta name="description" content="About Octopress Jul 3rd, 2015 11:37 am 总结octopress相关笔记(持续更新以及问题总结) 命令总结 生成新博客，自动在source/_post目录下生成对应的markdown文件（注意，在zsh下使用''避免编码问题）： rake 'new_post[ &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -71,7 +71,7 @@
   
   <header>
     
-      <h1 class="post-title">Hi,World</h1>
+      <h1 class="post-title">About Octopress</h1>
     
     
       <p class="post-meta">
@@ -101,7 +101,47 @@
   </header>
 
 
-<div class="post-content"><p>这是我的Hello World,Octopress!</p>
+<div class="post-content"><p>总结<a href="http://octopress.org">octopress</a>相关笔记(持续更新以及问题总结)</p>
+
+<h5>命令总结</h5>
+
+<p>生成新博客，自动在source/_post目录下生成对应的markdown文件（注意，在zsh下使用<code>''</code>避免编码问题）：</p>
+
+<pre><code>rake 'new_post[blog_title]'
+</code></pre>
+
+<p>生成新的页面，会自动在source目录下生成对应的文件夹以及index.html文件（注意，在zsh下使用<code>''</code>避免编码问题）：</p>
+
+<pre><code>rake 'new_page[page_title]'
+</code></pre>
+
+<p>本地预览<a href="http://localhost:4000">http://localhost:4000</a>：</p>
+
+<pre><code>rake preview
+</code></pre>
+
+<p>重新生成静态文件(如果配置文件修改，需要执行该命令后再次rake preview才能预览变更)</p>
+
+<pre><code>rake generate
+</code></pre>
+
+<p>生成静态文件并且发布(generate + deploy)</p>
+
+<pre><code>rake gen_deploy
+</code></pre>
+
+<h5>问题</h5>
+
+<ul>
+<li><p>目前编译时仍有很多警告未解决，如:</p>
+
+<p>   Layout &lsquo;nil&rsquo; requested in blog/categories/joke/atom.xml does not exist.</p></li>
+<li><p>有时编译报错，因为装了多版本ruby，所以需要在博客目录下确保rvm list显示的版本正确</p></li>
+<li><p>目前博客的搭建流程没有做记录，以后再添加</p></li>
+<li><p>目前使用的是<a href="https://github.com/Forteluz/mewpassant">Cho的mewpassant主题</a>，就喜欢这么简洁 &lt;(▰˘◡˘▰)></p></li>
+<li><p>还未指定域名，不太酷</p></li>
+</ul>
+
 </div>
 
 
@@ -115,7 +155,7 @@
 
 <span class="CATEGORIRES">
   
-    <a class='category' href='/blog/categories/joke/'>joke</a>
+    <a class='category' href='/blog/categories/octopress/'>octopress</a>
   
 </span>
 
@@ -148,7 +188,8 @@
   <ul id="categories">
     <li class='category'><a href='/blog/categories/develop-for-ios/'>develop for ios (2)</a></li>
 <li class='category'><a href='/blog/categories/develop-for-mac/'>develop for mac (1)</a></li>
-<li class='category'><a href='/blog/categories/joke/'>joke (1)</a></li>
+<li class='category'><a href='/blog/categories/octopress/'>octopress (1)</a></li>
+<li class='category'><a href='/blog/categories/rvm/'>rvm (1)</a></li>
 
   </ul>
 </section>
